@@ -36,7 +36,6 @@
 .ghost:hover {
   color: var(--white);
   background-color: var(--primary);
-  /* transition: all 0.2s; */
 }
 
 .arrow {

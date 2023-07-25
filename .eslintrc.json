@@ -4,7 +4,6 @@
 	"plugins": [
 		"@typescript-eslint"
 	],
-	"files": ["*.ts", "*.mts", "*.cts", "*.tsx"],
 	"rules": {
 		"semi": "off",
 		"@typescript-eslint/semi": [
@@ -16,8 +15,16 @@
 				"allowSingleExtends": true
 			}
 		],
-		"@typescript-eslint/explicit-function-return-type": ["error", { "allowTypedFunctionExpressions": false }]
+		"@typescript-eslint/explicit-function-return-type": "off"
 	},
+	"overrides": [
+    {
+      "files": ["*.ts", "*.mts", "*.cts", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": ["error", { "allowTypedFunctionExpressions": false }]
+      }
+    }
+	],
   "extends": [
     "next/core-web-vitals", 
     "eslint:recommended",
