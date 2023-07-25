@@ -1,3 +1,10 @@
+import React from "react";
+import { Htag } from "@/components";
+
 export default function Home(): JSX.Element {
-  return <div>123</div>;
+  return (
+    <div>
+      <Htag tag="h1">123</Htag>
+    </div>
+  );
 }
