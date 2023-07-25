@@ -4,6 +4,7 @@
 	"plugins": [
 		"@typescript-eslint"
 	],
+	"files": ["*.ts", "*.mts", "*.cts", "*.tsx"],
 	"rules": {
 		"semi": "off",
 		"@typescript-eslint/semi": [

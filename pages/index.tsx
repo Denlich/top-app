@@ -8,7 +8,9 @@ export default function Home(): JSX.Element {
       <Button appearance="primary" onClick={(): void => alert("I am working!")}>
         Button
       </Button>
-      <Button appearance="ghost">Button</Button>
+      <Button appearance="ghost" arrow="right">
+        Button
+      </Button>
     </div>
   );
 }
