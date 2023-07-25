@@ -1,30 +1,32 @@
 :root {
-	--primary: #7653FC;
-	--black: #3B434E;
-	--white: white;
-	--red: #FC836D;
-	--green: #1DC37E;
-	--green-light: #C8F8E4;
-	--font-family: "Noto Sans", sans-serif;
+  --primary: #7653fc;
+  --primary-hover: #6344df;
+  --black: #3b434e;
+  --gray-light: #ebebeb;
+  --white: white;
+  --red: #fc836d;
+  --green: #1dc37e;
+  --green-light: #c8f8e4;
+  --font-family: "Noto Sans", sans-serif;
 }
 
 html,
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 
-	color: var(--black);
-	background: #F5F6F8;
+  color: var(--black);
+  background: #f5f6f8;
 
-	font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 
-	color: inherit;
+  color: inherit;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }

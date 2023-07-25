@@ -14,6 +14,7 @@
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "classnames": "^2.3.2",
     "eslint-config-next": "13.4.10",
     "next": "13.4.10",
     "react": "18.2.0",
@@ -25,9 +26,9 @@
     "@typescript-eslint/parser": "^6.1.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.45.0",
-    "stylelint": "^14.1.0",
+    "stylelint": "^14.16.1",
+    "stylelint-config-recommended": "^6.0.0",
     "stylelint-config-standard": "^24.0.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-order-config-standard": "^0.1.3"
+    "stylelint-order": "^6.0.3"
   }
 }
