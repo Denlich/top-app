@@ -4,17 +4,16 @@ import { LayoutProps } from "./Layout.props";
 import { Header } from "./Header/Header";
 import { SideBar } from "./SideBar/SideBar";
 import { Footer } from "./Footer/Footer";
+import styles from "./Layout.module.css";
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
-    <>
-      <Header />
-      <div>
-        <SideBar />
-        {children}
-      </div>
-      <Footer />
-    </>
+    <div className={styles.wrapper}>
+      <Header className={styles.header} />
+      <SideBar className={styles.sidebar} />
+      <div className={styles.body}>{children}</div>
+      <Footer className={styles.footer} />
+    </div>
   );
 };
 
