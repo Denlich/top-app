@@ -2,7 +2,7 @@ import React, { FunctionComponent } from "react";
 
 import { LayoutProps } from "./Layout.props";
 import { Header } from "./Header/Header";
-import { SideBar } from "./SideBar/SideBar";
+import { Sidebar } from "./Sidebar/Sidebar";
 import { Footer } from "./Footer/Footer";
 import styles from "./Layout.module.css";
 import { AppContextProvider, IAPPContext } from "@/context/app.context";
@@ -11,7 +11,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <div className={styles.wrapper}>
       <Header className={styles.header} />
-      <SideBar className={styles.sidebar} />
+      <Sidebar className={styles.sidebar} />
       <div className={styles.body}>{children}</div>
       <Footer className={styles.footer} />
     </div>
